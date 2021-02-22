@@ -1,0 +1,46 @@
+body h2 {
+    text-align: center;
+    font-family: cursive;
+    text-decoration-color: black;
+}
+body 
+{
+    background-size: contain;
+    background-image: url(back1.jpg);
+}
+footer
+{
+    text-align: center;
+    text-decoration-color: black;
+    background-color: azure;
+}
+nav
+{
+    background-color:mediumvioletred;
+    text-decoration-color:black;
+    text-align: center;
+    font-family: cursive;
+}
+nav a
+{
+    text-decoration: none;
+    margin:20px;
+}
+img
+{
+    border-radius: 50%;
+    border-image-width: 20%;
+    
+}
+.intro
+{
+    display: flex;
+}
+.intro ul li
+{
+    list-style: none;
+}
+.sub a
+{
+   text-decoration:none;
+}
