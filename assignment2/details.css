@@ -1,0 +1,65 @@
+body {
+    background-size: contain;
+}
+
+.pari_img {
+    background-image: url("cover2.jpg");
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.book {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+.book a 
+{
+    margin: 10px;
+}
+.book ul li
+{
+    list-style: none;
+}
+.book a:hover
+{
+    transform: translate(0,-15px);
+}
+.book ul {
+    display: flex;
+}
+.info 
+{
+    display: flex;
+    
+}
+.info ul li
+{
+    list-style: none;
+}
+footer
+{
+    text-align: center;
+    text-decoration-color: black;
+    background-color: azure;
+    font-size:20;
+}
+header
+{
+    text-align: center;
+    text-decoration-color: black;
+    background-color:darksalmon;
+    font-size:28;
+    font-family: cursive;
+}

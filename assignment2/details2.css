@@ -1,0 +1,25 @@
+.intro
+{
+    display: flex;
+}
+.intro ul li
+{
+    list-style: none;
+}
+footer
+{
+    text-align: center;
+    text-decoration-color: black;
+    background-color: azure;
+}
+body
+{
+    background-image: url(back.jpg);
+    background-size: contain;
+}
+h2
+{
+    text-align: center;
+    font-family: cursive;
+    text-decoration-color: black;
+}
